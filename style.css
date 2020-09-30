@@ -1,0 +1,101 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+/* video num 7 */
+.pseudo_div {
+    background: rgb(214, 214, 214);
+    width: 100vw;
+    height: 100vh;
+}
+.center_div {
+    width: 70vw;
+    height: 30vh;
+    position: relative;
+    left: 20%;
+    top: 20%;
+    font-size: 1rem;
+}
+p.first_child::first-letter {
+    color: chocolate;
+    font-size: 4rem;
+    float: left;
+    display: block;
+    margin: 0 15px 0 0;
+    line-height: 0.6;
+    font-weight: bold;
+}
+p.first_child::first-line {
+    color: chocolate;
+    font-weight: bold;
+}
+/* video num 8 */
+.anchor_div {
+    width: 100vw;
+    height: 100vh;
+    background: #192a56;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+}
+a {
+    text-decoration : none;
+    transition: all 0.3s linear;
+}
+a:link {
+    color: #fff;
+}
+a:hover {
+    color: #192a56;
+    background: #fff;
+}
+a:active {
+    color: yellow;
+    background: #000;
+}
+a:visited {
+    color: red;
+    background: whitesmoke;
+}
+/* video num 9 */
+.transtext {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cutewallpaper.org/21/web-development-wallpaper/Targeted-web-development-solutions-as-an-animation-concept.-4K-UHD-motion-video..png);
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center;
+}
+.trans_text {
+    font-family: 'Kaushan Script', cursive;
+    background: #fff;
+    padding: 0 10px;
+    mix-blend-mode: screen;
+}
+/* video num 10 */
+
+.nth_div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #38ada9;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.nth_div * {
+    padding: 5px;
+}
+li:nth-child(2n){
+    color: #b71540;
+}
+li:nth-child(2n+1) {
+    color: #f6b93b;
+}
+li:first-child {
+    color: #4a69bd;
+}
+li:last-child {
+    color: #0a3d62;
+}
